@@ -1,0 +1,9 @@
+.share-buttons{
+    @include global-margin;
+    
+    &__rounded-gray{
+        background-color: $nickel;
+        border-radius: 3rem;
+    }
+}
+

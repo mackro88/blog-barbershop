@@ -1,0 +1,36 @@
+/* Info Author Layout */ 
+.info-author {
+    padding: 4rem 10%; 
+    border-top-color: $light-gray;
+    border-top-width: 1px;
+    border-top-style: solid;
+
+    
+    .links{
+        font-weight: $r-light;
+        font-size: $large;
+        display: block;
+    }
+    
+    &__about{
+        font-size: 14px;
+        color: $nickel;
+        line-height: 2.8;
+    }
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+@media only screen and (max-width : 768px){
+    
+    .info-author {
+        padding: 4rem 20%; 
+        text-align: center;
+        
+        .thumbnail{
+            width: 40vw;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+/* Navbar Layout */
+.navbar{
+    background-color: $eerie-black;
+    font-family: $roboto;
+    font-weight: $r-regular;
+    font-size: $medium;
+}
+.nav-link{
+    color: $white;
+
+    &:hover{
+        color: $ruddy-pink;
+    }
+    
+    &.active{
+        color: $ruddy-pink;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+    
+    &.active {
+        color: $ruddy-pink;
+    }
+}

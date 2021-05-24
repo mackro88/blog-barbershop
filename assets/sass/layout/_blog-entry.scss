@@ -1,0 +1,19 @@
+.blog-entry{
+    @include global-margin;
+    color: $raisin-black;
+    
+    &__date{
+        font-family: $playfair-display;
+        font-size: $large;
+        font-weight: $r-regular;
+    }
+    
+    &__post{
+        font-weight: $r-light;
+        line-height: 2.8;
+        
+        p{
+            margin: 3rem 0;
+        }
+    }
+}

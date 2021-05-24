@@ -1,0 +1,15 @@
+/* Base Styles */
+body {
+    background-color: $white;
+    font-family: $roboto;
+    font-weight: $r-regular;
+    font-size: $medium;
+    z-index: 1;
+}
+
+/* Base Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $playfair-display;
+    font-style: $italic;
+    font-weight: $r-black;
+}
